@@ -1,0 +1,63 @@
+# =============================
+# 🦙 LlamaQuill — Git Ignore
+# Developed by Lavanya Srivastava
+# =============================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.log
+
+# --- Virtual Environment ---
+.venv/
+env/
+venv/
+ENV/
+Scripts/
+Lib/
+Include/
+bin/
+pyvenv.cfg
+
+# --- Streamlit Cache ---
+.streamlit/
+.cache/
+__pycache__/
+
+# --- Model Files (Large binaries) ---
+models/
+*.bin
+*.gguf
+*.ggml
+*.pth
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Notebook & temp files ---
+*.ipynb_checkpoints
+*.tmp
+*.bak
+
+# --- Credentials / Env ---
+.env
+.env.*
+*.key
+*.token
+
+# --- Build / Dist ---
+build/
+dist/
+*.spec
+
+# --- Ollama (local cache) ---
+~/.ollama/
