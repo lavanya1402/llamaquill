@@ -1,22 +1,49 @@
-# 🦙 LlamaQuill — Blog Generator (Ollama + LangChain + Streamlit)
+# 🦙 LlamaQuill — Local Blog Generator (Ollama + LangChain)
 
-Generate thoughtful, audience-tuned blogs using **local LLMs via Ollama** — wrapped in a simple Streamlit UI and LangChain for prompting.
+**LlamaQuill** lets you create thoughtful, audience-tuned blogs entirely on your own computer using **local Ollama models**.
+No API keys, no cloud dependencies — your system becomes the writer’s studio.
 
-## ✨ Features
-- Choose topic, target word count, and audience (Researchers / Data Scientists / General Audience)
-- Select local Ollama model (`llama3`, `mistral`, `phi3`, `qwen2.5`) and tweak generation params
-- Runs **fully local** (no cloud keys needed) if Ollama is available
+---
 
-## 🧱 Tech Stack
-- **Ollama** (local LLM runtime)  
-- **LangChain** (prompt templating + chat wrapper)  
-- **Streamlit** (UI)
+### ✨ Features
 
-## 📦 Requirements
-- Python 3.9+
-- Ollama installed and running (https://ollama.com)
-- The following Python packages (see `requirements.txt`):
-  ```txt
-  streamlit==1.39.0
-  langchain==0.2.14
-  langchain-community==0.2.12
+* Runs completely **offline** with local Ollama models such as *LLaMA 3*, *Mistral*, *Phi 3*, and *Qwen 2.5*
+* Generates full blogs based on your topic, word count, and target audience
+* Adjustable creativity controls for tone and length
+* Optional **Streamlit interface** for an intuitive, interactive experience
+
+---
+
+### 🧠 How It Works
+
+LlamaQuill combines **LangChain’s ChatOllama** with the **Ollama runtime** running locally.
+You provide a topic and target audience; the model crafts a coherent, structured blog post with headings and a concise conclusion.
+Everything executes securely on your machine — no internet connection required.
+
+---
+
+### 🧱 Technology
+
+* **Ollama** – Local LLM runtime for model inference
+* **LangChain Community** – ChatOllama wrapper for prompt handling
+* **Streamlit** *(optional)* – Web-based UI for quick experimentation
+* **Python 3.9 +** – Core environment
+
+---
+
+### 🧩 Project Highlights
+
+* Lightweight, privacy-friendly AI writing assistant
+* Ideal for bloggers, educators, and researchers exploring local LLMs
+* Simple structure that can be extended to any creative-writing task
+
+---
+
+### 💙 Author
+
+Developed with ❤️ by **[Lavanya Srivastava](https://www.linkedin.com/in/lavanya-srivastava/)**
+Powered by *LangChain + Ollama (local models)* — with an optional Streamlit touch for interactivity.
+
+---
+
+Would you like me to make a **one-line tagline and banner text** (for your GitHub repo header) so it looks visually polished like your other projects (AzurePolicyBot, NutriVision, etc.)?
