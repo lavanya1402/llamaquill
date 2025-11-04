@@ -44,6 +44,3 @@ Everything executes securely on your machine — no internet connection required
 Developed with ❤️ by **[Lavanya Srivastava](https://www.linkedin.com/in/lavanya-srivastava/)**
 Powered by *LangChain + Ollama (local models)* — with an optional Streamlit touch for interactivity.
 
----
-
-Would you like me to make a **one-line tagline and banner text** (for your GitHub repo header) so it looks visually polished like your other projects (AzurePolicyBot, NutriVision, etc.)?
